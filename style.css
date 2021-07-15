@@ -19,6 +19,7 @@ animation-name: jumboShow;
 animation-duration: 2s;
 }
 .show-2 {
+text-decoration: none;
 animation-name: h1Show;
 animation-duration: 3s;
 }
@@ -37,8 +38,9 @@ h1 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 40px;
-  color: rgb(185, 159, 12);
+  color: gold;
   text-shadow: black;
+  text-decoration: underline;
 
 }
 
