@@ -2,6 +2,35 @@ body {
   background-color: rgb(73, 240, 240);
 }
 
+@keyframes jumboShow {
+  from { opacity: 0;}
+  to { opacity: 1;}
+}
+@keyframes h1Show {
+  from { opacity: 0;}
+  to { opacity: 1;}
+}
+@keyframes welShow {
+  from { opacity: 0;}
+  to { opacity: 1;}
+}
+.show {
+animation-name: jumboShow;
+animation-duration: 2s;
+}
+.show-2 {
+animation-name: h1Show;
+animation-duration: 3s;
+}
+.show-3 {
+color: rgb(66, 8, 121);
+animation-name: welShow;
+animation-duration: 5s;
+}
+.jumbotron {
+  border: 1px solid rgb(189, 178, 178);
+}
+
 
 h1 {
   font-weight: bolder;
@@ -13,15 +42,17 @@ h1 {
 
 }
 
-.album-container {
 
-
-}
 .album-cover {
 margin-bottom: 15px;
-
+position: relative;
 }
-
+.badge-cover {
+  font-size: larger;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .album-title {
 font-size: 14px;
 text-align: center;
