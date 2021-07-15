@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(73, 240, 240);
+}
+
+
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: rgb(185, 159, 12);
+  text-shadow: black;
+
+}
+
+.album-container {
+
+
+}
+.album-cover {
+margin-bottom: 15px;
+
+}
+
+.album-title {
+font-size: 14px;
+text-align: center;
+
+}
+.album-group {
+font-weight: bold;
+}
+.album-genre {
+
+}
